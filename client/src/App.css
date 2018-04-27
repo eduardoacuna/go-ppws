@@ -1,0 +1,23 @@
+.content {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.board_cell {
+  transition: fill .2 ease;
+  stroke: black;
+}
+
+.board_cell_floor {
+  fill: burlywood;
+}
+
+.board_cell_wall {
+  fill: darkslategrey;
+}
+
+.player {
+}
+
+.enemy {
+}
